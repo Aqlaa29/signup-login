@@ -15,7 +15,7 @@ session_start();
          <div class="text"> 
             LOGIN 
          </div> 
-         <form action="loginn.php" method="post"> 
+         <form action="index.php" method="post"> 
             <div class="field"> 
             <i class="fas fa-user"></i> 
                <input type="text" name = 'name' placeholder="user name"> 
