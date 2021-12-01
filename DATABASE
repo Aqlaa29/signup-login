@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS books;
+
+CREATE DATABASE books;
+
+USE books;
+
+CREATE TABLE signup (
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+username VARCHAR(30),
+    email    VARCHAR(50),
+    password    VARCHAR(50),
+   
+);
+CREATE TABLE login( 
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(30),
+    password    VARCHAR(50)
+);
