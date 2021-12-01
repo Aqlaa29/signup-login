@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7c7c7;
+  }
+  
+  .login-form{
+    position: relative;
+    width: 370px;
+    height: auto;
+    background: #1636c46c;
+    padding: 40px 35px 60px;
+    box-sizing: border-box;
+    border: 1px solid rgb(143, 131, 131);
+    border-radius: 35px;
+  }
+  .text{
+    font-size: 30px;
+    color: #c7c7c7;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  form{
+    margin-top: 40px;
+  
+  }
+  form .field{
+    margin-top: 20px;
+    display: flex;
+  }
+  .field .fas{
+    height: 50px;
+    width: 60px;
+    color: yellow;
+    font-size: 20px;
+    line-height: 50px;
+    border: 1px solid #444;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    background: linear-gradient(#333,#222);
+  }
+  .field input,form button{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 19px;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #444;
+    caret-color: whitesmoke; 
+    background: linear-gradient(#333,#222);
+    color: aliceblue;
+  
+  }
+  button{
+    margin-top: 30px;
+    border-radius: 5px!important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  button a{
+      color: whitesmoke;
+      text-decoration: none;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link{
+    margin-top: 25px;
+    color: black;
+  }
+  .link a{
+    color: #e4dfe9ef;
+    text-decoration: none;
+  }
+  
