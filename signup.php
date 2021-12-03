@@ -14,7 +14,7 @@
             SIGN UP
          </div>
          <!-- PHP-->
-         <form action="/action_page.php" method="POST">
+         <form action="/index.php" method="POST">
             <div class="field">
             
                <i class="fas fa-user"></i>
